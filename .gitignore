@@ -1,0 +1,21 @@
+# === EL PACTO — lo que NO viaja a GitHub ===
+
+# código de terceros (AzerothCore: se clona aparte, ver README — commit 5239460)
+azerothcore-wotlk/
+
+# material con copyright / derivado del cliente de juego
+guiones/
+tools/mpq/*.dbc
+tools/mpq/*.MPQ
+tools/mpq/*.mpq
+launcher/*.mpq
+launcher/*.MPQ
+
+# datos de jugadores y basura local
+backups/
+.DS_Store
+**/.DS_Store
+tools/mpq/demo-renames.json
+
+# credenciales locales
+NOTAS-LOCALES.md

@@ -1,0 +1,24 @@
+# EL PACTO — override del stack (contenedores pacto-*, volúmenes externos)
+# Copia maestra versionada en ../config/docker-compose.override.yml
+services:
+  ac-database:
+    container_name: pacto-database
+  ac-db-import:
+    container_name: pacto-db-import
+  ac-client-data-init:
+    container_name: pacto-client-data-init
+  ac-worldserver:
+    container_name: pacto-worldserver
+    volumes:
+      # Scripts Lua de El Pacto (viven en este repo, se montan al vuelo)
+      - ../lua_scripts:/azerothcore/env/dist/bin/lua_scripts
+  ac-authserver:
+    container_name: pacto-authserver
+
+volumes:
+  ac-database:
+    external: true
+    name: pacto-database
+  ac-client-data:
+    external: true
+    name: pacto-client-data

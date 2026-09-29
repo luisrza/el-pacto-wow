@@ -1,0 +1,19 @@
+EL PACTO — kit del cliente (para cada jugador)
+================================================
+
+Necesitas el MISMO cliente WoW 3.3.5a de La Torre. Luego:
+
+1. Copia estos DOS archivos a la carpeta del WoW (donde esta Wow.exe):
+   - ElPacto.bat
+   - ElPacto-patch.mpq
+   (y LaTorre.bat si tambien juegas La Torre)
+
+2. Doble clic en ElPacto.bat  ->  abre el juego apuntando a El Pacto,
+   instala el parche y limpia la cache. Nada mas que hacer.
+
+3. Para volver a La Torre: doble clic en LaTorre.bat (quita el parche solo).
+
+Cuenta: te la da Luis (o sale del test de creacion).
+Requisito de red: estar conectado a la Tailscale del grupo.
+
+Si el juego no conecta: verifica Tailscale y que usaste el .bat correcto.
